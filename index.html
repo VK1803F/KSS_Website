@@ -714,30 +714,26 @@
 
   <!-- Contact: Split Layout -->
   <section id="contact" aria-label="Contact Us">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <div class="contact-wrap">
-        <form class="contact-form" aria-label="Contact form for inquiries">
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" required autocomplete="name" />
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" required autocomplete="email" />
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-        <div class="contact-map">
-          <!-- You can replace src with your location -->
-          <iframe class="map-embed"
-  src="https://maps.google.com/maps?q=Saravanampatti,%20Coimbatore&t=&z=13&ie=UTF8&iwloc=&output=embed"
-  allowfullscreen
-  loading="lazy"
-  title="KICKSTART Office Location Saravanampatti"></iframe>
-</iframe>
-        </div>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <div class="contact-wrap">
+      <div class="contact-info" style="flex: 1 1 350px; background: var(--bg-card); padding: 2rem; border-radius: var(--radius); box-shadow: var(--shadow);">
+        <h3>Kickstart Software Solutions</h3>
+        <p><strong>Phone:</strong> <a href="tel:+919943229561" style="color: var(--accent); text-decoration: none;">+91 99432 29561</a></p>
+        <p><strong>Email:</strong> <a href="mailto:vasanth@thekss.in" style="color: var(--accent); text-decoration: none;">vasanth@thekss.in</a></p>
+      </div>
+      <div class="contact-map" style="flex: 1 1 350px;">
+        <iframe class="map-embed"
+          src="https://maps.google.com/maps?q=Saravanampatti,%20Coimbatore&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen
+          loading="lazy"
+          title="KICKSTART Office Location Saravanampatti"></iframe>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
 
 </main>
 
